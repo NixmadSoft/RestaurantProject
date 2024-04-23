@@ -1,7 +1,10 @@
+DROP DATABASE IF EXISTS `Restaurant`;
+
 CREATE DATABASE `Restaurant`;
 
 USE `Restaurant`;
-DROP procedure IF EXISTS `Add_Tables`;
+
+DROP PROCEDURE IF EXISTS `Add_Tables`;
 
 DELIMITER $$
 USE `Restaurant`$$
